@@ -33,7 +33,7 @@ for catg in ['Sex', 'Embarked']:
     xTrain[catg] = xTrain[catg].map(catg_map[catg])
     xTest[catg]  = xTest[catg].map(catg_map[catg])
 
-# instantiating RandomForestClassifier
+# instantiating LogisticRegression
 estimator = LogisticRegression(tol=1e-4, solver='liblinear', random_state=1)
 
 # Computing the cross validation accuracy as base model performance estimate.
