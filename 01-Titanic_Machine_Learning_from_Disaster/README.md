@@ -12,3 +12,11 @@ With these settings, the Cross-Validation accuracy of 78.66 was achieved.
 ## 01_exploratory_data_analysis.ipynb
 This file contains the exploratory data analysis for the Titanic data set.
 Insights from this will later be used to improve our classification model.
+
+## 02_missing_value_imputation.ipynb
+In this file, two different missing value imputation techniques were used instead of dropping the examples with missing values. 
+1. Simple Imputation - missing values were replaced by the central tendency of data. (Mean/ Median/ Mode)
+2. KNN Imputation - missing values are imputed using the nearest neighbors to the example (with respect to the rest of the features).
+
+## 03_estimators_and_parameter_tuning.ipynb
+Here different estimators/classifiers are evaluated based on cross-validation accuracy. Also, various hyperparameters for the classifiers are tuned using cross-validation.
