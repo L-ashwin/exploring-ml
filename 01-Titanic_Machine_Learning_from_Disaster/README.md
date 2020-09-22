@@ -20,3 +20,6 @@ In this file, two different missing value imputation techniques were used instea
 
 ## 03_estimators_and_parameter_tuning.ipynb
 Here different estimators/classifiers are evaluated based on cross-validation accuracy. Also, various hyperparameters for the classifiers are tuned using cross-validation.
+
+## 04_feature_engineering.ipynb  
+Until this point 'Name' feature column was dropped, this notebook contains a way to extract useful feature from it.
