@@ -23,3 +23,12 @@ Here different estimators/classifiers are evaluated based on cross-validation ac
 
 ## 04_feature_engineering.ipynb  
 Until this point 'Name' feature column was dropped, this notebook contains a way to extract useful feature from it.
+
+## 05_ensembling.ipynb
+Different methods of ensembling are explored to improve performance.
+1. Bagging  - Random Forest Classifier
+2. Boosting - AdaBoost Classifier & Gradient Boosting Classifier
+
+## 06_stacking_classifiers.ipynb
+In this notebook, a simple form of meta learning was employed. 
+All the classifiers used before this notebook are used as level one classifiers predicting the probability of survival. Another classifier is then trained to predict the survival with these probabilities as features.
