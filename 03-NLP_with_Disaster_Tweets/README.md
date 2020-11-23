@@ -26,7 +26,9 @@ In this notebook, a different way of extracting features from the text (TFIDF) i
 The use of word embeddings is one of the elegant ways of transfer learning in NLP where we get to pass in information to the model from outside the dataset. [GloVe](https://nlp.stanford.edu/pubs/glove.pdf) is one of the famous algorithms used to generate embeddings. GloVe vectors trained on huge corpus are made available by Stanford [here](https://nlp.stanford.edu/projects/glove/)  
 In this notebook, GloVe embeddings are used to extract features from the text. After enoding each word with an embedding vector, we get a sequence of such vectors for each tweet. RNN's are an effective way to deal with such sequential data. A couple of modified RNNs (LSTM & GRU) are explored in this notebook for classification.
 
-
+## 04 BERT
+In _04_bert.ipynb notebook use of BERT for classification is explored using Transformers library with PyTorch. The notebook is basically to explore and understand, how the BertTokenizer works? how to prepare inputs for BERT? how to create a model in PyTorch using pre-trained BERT? and how to implement training step on the model?  
+Then the model is trained and employed for the classification of tweets in bert-for-classification directory.
 
 
 
